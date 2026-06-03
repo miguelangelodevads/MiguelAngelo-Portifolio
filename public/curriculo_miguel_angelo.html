@@ -37,9 +37,14 @@
             font-size: 14px;
             color: #666;
             margin-bottom: 30px;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
+            line-height: 1.8;
+        }
+        .contact-info a {
+            color: #425b41;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
         h2 {
             font-size: 20px;
@@ -97,8 +102,8 @@
         }
         @media print {
             body { background: #fff; padding: 0; }
-            .container { box-shadow: none; padding: 0; }
-            .print-btn { display: none; }
+            .container { box-shadow: none; padding: 0; margin: 0; }
+            .print-btn, .print-btn-container { display: none !important; }
         }
         .print-btn {
             display: inline-block;
@@ -128,10 +133,9 @@
         <div class="subtitle">Desenvolvedor Full Stack Júnior</div>
         
         <div class="contact-info">
-            <span>📍 Maceió, AL</span>
-            <span>📱 +55 (85) 98711-0571</span>
-            <span>🔗 linkedin.com/in/miguel-angelo-russo-neto-angelo-bbaa48280/</span>
-            <span>🐙 github.com/miguelangelodevads</span>
+            Fortaleza, CE &nbsp;|&nbsp; <a href="https://wa.me/5585987110571" target="_blank">+55 (85) 98711-0571</a><br>
+            <a href="https://linkedin.com/in/miguel-angelo-russo-neto-angelo-bbaa48280/" target="_blank">linkedin.com/in/miguel-angelo-russo-neto-angelo-bbaa48280/</a> &nbsp;|&nbsp; 
+            <a href="https://github.com/miguelangelodevads" target="_blank">github.com/miguelangelodevads</a>
         </div>
 
         <h2>Resumo Profissional</h2>

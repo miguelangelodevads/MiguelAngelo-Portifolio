@@ -60,7 +60,7 @@ pdf_options:
 **Desenvolvedor Full Stack Júnior**
 
 <div class="header-info">
-Maceió, AL | +55 (85) 98711-0571<br>
+Fortaleza, CE | <a href="https://wa.me/5585987110571" target="_blank">+55 (85) 98711-0571</a><br>
 linkedin.com/in/miguel-angelo-russo-neto-angelo-bbaa48280/ | github.com/miguelangelodevads
 </div>
 
