@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo - Miguel Angelo Russo Neto</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 50px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #1a2018;
+            border-bottom: 3px solid #425b41;
+            padding-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 18px;
+            color: #425b41;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        h2 {
+            font-size: 20px;
+            color: #425b41;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        .job {
+            margin-bottom: 25px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        .job-title {
+            font-weight: 700;
+            font-size: 16px;
+            color: #222;
+        }
+        .job-company {
+            font-weight: 600;
+            color: #425b41;
+        }
+        .job-date {
+            font-size: 14px;
+            color: #888;
+            font-style: italic;
+        }
+        ul {
+            margin-top: 5px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+            font-size: 14.5px;
+            color: #444;
+        }
+        p {
+            font-size: 14.5px;
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+        .skills div {
+            font-size: 14.5px;
+        }
+        .skills strong {
+            color: #425b41;
+        }
+        @media print {
+            body { background: #fff; padding: 0; }
+            .container { box-shadow: none; padding: 0; }
+            .print-btn { display: none; }
+        }
+        .print-btn {
+            display: inline-block;
+            background: #425b41;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            cursor: pointer;
+            border: none;
+        }
+        .print-btn:hover {
+            background: #2c3e2b;
+        }
+    </style>
+</head>
+<body>
+
+    <div style="text-align: center;" class="print-btn-container">
+        <button class="print-btn" onclick="window.print()">🖨️ Imprimir / Salvar como PDF</button>
+    </div>
+
+    <div class="container">
+        <h1>Miguel Angelo Russo Neto</h1>
+        <div class="subtitle">Desenvolvedor Full Stack Júnior</div>
+        
+        <div class="contact-info">
+            <span>📍 Maceió, AL</span>
+            <span>📱 +55 (85) 98711-0571</span>
+            <span>🔗 linkedin.com/in/miguel-angelo-russo-neto-angelo-bbaa48280/</span>
+            <span>🐙 github.com/miguelangelodevads</span>
+        </div>
+
+        <h2>Resumo Profissional</h2>
+        <p>Desenvolvedor Full Stack Júnior apaixonado por criar interfaces limpas, modernas e sistemas eficientes. Formado em Análise e Desenvolvimento de Sistemas (UNIFOR) e aperfeiçoando habilidades no curso Full Stack da Digital College. Vivência prática atuando diretamente em sistemas de gestão e plataformas e-commerce, unindo design de ponta e arquiteturas robustas para resolver problemas de negócio.</p>
+
+        <h2>Experiência Profissional</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Desenvolvedor Full Stack (Aprendiz Júnior)</span> | 
+                    <span class="job-company">Tiger Tecnologia</span>
+                </div>
+                <div class="job-date">Atualmente</div>
+            </div>
+            <ul>
+                <li>Atuação direta e diária no desenvolvimento do sistema DMTT (Departamento Municipal de Transportes e Trânsito).</li>
+                <li>Desenvolvimento e sustentação de novas features focadas em otimizar a gestão de mobilidade e trânsito.</li>
+                <li>Resolução ativa de bugs complexos e refatoração de componentes para garantir melhor performance e manutenibilidade.</li>
+                <li><strong>Gestão de versionamento de código utilizando Git e GitHub Flow, com integração contínua e controle rigoroso de branches e merges.</strong></li>
+                <li>Trabalho ágil e colaborativo lado a lado com engenheiros seniores (code reviews e design patterns).</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <span class="job-title">Desenvolvedor Frontend Freelancer</span> | 
+                    <span class="job-company">BG Tec</span>
+                </div>
+                <div class="job-date">Atualmente</div>
+            </div>
+            <ul>
+                <li>Responsável técnico pelo front-end de uma plataforma E-commerce B2C focada em baterias musicais (em pré-lançamento).</li>
+                <li>Arquitetura da aplicação utilizando React, garantindo uma vitrine virtual dinâmica, rápida e fluida.</li>
+                <li>Implementação completa do fluxo: carrinho de compras, cálculo de frete e integração com fluxo de checkout.</li>
+                <li>Integração com APIs RESTful e versionamento contínuo utilizando o Git/GitHub Flow para controle de releases.</li>
+            </ul>
+        </div>
+
+        <h2>Formação Acadêmica</h2>
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Especialização em Desenvolvimento Full Stack</div>
+                <div class="job-date">Em Andamento</div>
+            </div>
+            <div class="job-company">Digital College</div>
+        </div>
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title">Graduação em Análise e Desenvolvimento de Sistemas</div>
+                <div class="job-date">Concluído</div>
+            </div>
+            <div class="job-company">Universidade de Fortaleza (UNIFOR)</div>
+        </div>
+
+        <h2>Principais Projetos</h2>
+        <ul>
+            <li><strong>Sistema PDV:</strong> Ponto de venda (Full Stack / Node.js) desenvolvido para gerenciar vendas, estoque e fluxo de caixa de pequenos comércios.</li>
+            <li><strong>App Web de Músicas:</strong> Aplicação web para streaming e organização de playlists musicais, interface moderna e fluida (React).</li>
+            <li><strong>Agenda Pro (Android):</strong> Aplicativo mobile nativo focado em músicos para gerenciamento de agenda e ensaios.</li>
+        </ul>
+
+        <h2>Conhecimentos e Ferramentas</h2>
+        <div class="skills">
+            <div><strong>Frontend:</strong> React.js, Tailwind CSS, HTML5, CSS3, JavaScript (ES6+), UI/UX</div>
+            <div><strong>Backend:</strong> Node.js, Integração de APIs RESTful</div>
+            <div><strong>Mobile:</strong> Desenvolvimento Android Nativo</div>
+            <div><strong>DevOps & Ágil:</strong> Git, GitHub Flow, Code Review, Scrum</div>
+        </div>
+    </div>
+</body>
+</html>

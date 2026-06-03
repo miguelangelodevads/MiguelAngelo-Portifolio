@@ -9,6 +9,7 @@ export default function Experience() {
         'Desenvolvimento e sustentação de novas features focadas em otimizar a gestão de mobilidade e trânsito.',
         'Resolução ativa de bugs complexos e refatoração de componentes para garantir melhor performance e manutenibilidade.',
         'Trabalho ágil e colaborativo lado a lado com engenheiros seniores, absorvendo boas práticas, design patterns e participando de code reviews.',
+        'Gestão de versionamento de código utilizando Git e GitHub Flow, com integração contínua e controle rigoroso de branches e merges.',
         'Construção e aprimoramento de interfaces de usuário (UI/UX), prezando por um design limpo, responsivo e centrado na experiência do usuário.'
       ]
     },
