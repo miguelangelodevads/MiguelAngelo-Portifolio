@@ -42,7 +42,7 @@ export default function Projects() {
   ];
 
   return (
-    <section className='py-20 px-6 bg-black/20' id='projects'>
+    <section className='py-12 md:py-20 px-6 bg-black/20' id='projects'>
       <div className='max-w-7xl mx-auto'>
         <h2 className='section-title'>Projetos em Destaque</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12'>

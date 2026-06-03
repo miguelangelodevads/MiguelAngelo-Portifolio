@@ -3,23 +3,23 @@ import perfilImg from '../assets/perfil.jpg.jpg';
 export default function Hero() {
   return (
     <section
-      className='min-h-screen flex items-center justify-center px-6 pt-20'
+      className='min-h-screen flex items-center justify-center px-8 md:px-6 pt-20'
       id='home'
     >
       <div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center'>
-        <div className='space-y-8 animate-fade-in-up'>
-          <h1 className='text-5xl md:text-7xl font-bold leading-tight text-white'>
+        <div className='space-y-6 md:space-y-8 animate-fade-in-up text-center md:text-left mt-12 md:mt-0'>
+          <h1 className='text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-white px-2 md:px-0'>
             Transformando <br />
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-secondary to-brand-accent'>
               Ideias em Código
             </span>
           </h1>
-          <p className='text-lg text-gray-400 max-w-lg leading-relaxed'>
+          <p className='text-base md:text-lg text-gray-400 max-w-lg leading-relaxed mx-auto md:mx-0'>
             Sou um Desenvolvedor Full Stack Júnior apaixonado por criar
             interfaces limpas, modernas e sistemas eficientes. Pronto para
             agregar valor à sua equipe.
           </p>
-          <div className='flex flex-wrap gap-4'>
+          <div className='flex flex-wrap justify-center md:justify-start gap-4'>
             <a href='#projects' className='btn-primary'>
               Ver Projetos
             </a>
@@ -35,8 +35,8 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className='relative hidden md:flex justify-center'>
-          <div className='w-80 h-80 rounded-full p-1 bg-gradient-to-tr from-brand-primary via-brand-secondary to-brand-accent animate-[spin_10s_linear_infinite]'>
+        <div className='relative flex justify-center order-first md:order-last'>
+          <div className='w-64 h-64 md:w-80 md:h-80 rounded-full p-1 bg-gradient-to-tr from-brand-primary via-brand-secondary to-brand-accent animate-[spin_10s_linear_infinite]'>
             <div className='w-full h-full rounded-full bg-brand-dark flex items-center justify-center overflow-hidden animate-[spin_10s_linear_reverse_infinite]'>
               <img src={perfilImg} alt="Miguel Angelo" className="w-full h-full object-cover object-[70%_10%]" />
             </div>

@@ -13,7 +13,7 @@ export default function About() {
               Atualmente, busco aperfeiçoamento contínuo estudando <strong className="text-white">Desenvolvimento Full Stack na Digital College</strong>, aprofundando meus conhecimentos nas tecnologias mais demandadas pelo mercado e me preparando para resolver problemas complexos através de código.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-8 md:mt-0">
             <div className="glass-panel p-6 rounded-2xl text-center border-t-4 border-t-brand-primary hover:-translate-y-2 transition-transform duration-300">
                <div className="text-4xl font-bold text-brand-primary mb-2">+2</div>
                <div className="text-gray-400 text-sm">Anos de Estudo</div>
