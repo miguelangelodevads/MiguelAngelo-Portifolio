@@ -9,11 +9,19 @@ export default function Projects() {
       link: "https://mdmobilidade.dmtt.maceio.al.gov.br/login",
     },
     {
-      title: "E-commerce Baterias",
-      description:
-        "Plataforma completa de vendas online para uma loja de instrumentos musicais. Vitrine dinâmica, carrinho de compras e checkout otimizado.",
-      tags: ["React", "E-commerce", "Freelance", "Em Desenvolvimento"],
-      featured: false,
+      title: "Compra Certa",
+      description: "Projeto de comparação de preços com frontend Next.js e API NestJS. Inclui coleta de observações, entrada manual, validação de elegibilidade, deduplicação e recomendação considerando a recência dos dados. Persistência com Prisma e PostgreSQL.",
+      tags: ["NestJS", "APIs REST", "PostgreSQL", "Prisma", "Em desenvolvimento"],
+    },
+    {
+      title: "JB Produção",
+      description: "Sistema em desenvolvimento para organizar apresentações, artistas e estabelecimentos. O projeto trabalha com agenda, permissões por artista e regras de comissões e fechamento por estabelecimento, usando Next.js, NestJS e PostgreSQL.",
+      tags: ["TypeScript", "NestJS", "Next.js", "Regras de negócio"],
+    },
+    {
+      title: "Casa do Batera",
+      description: "E-commerce de instrumentos musicais novos e seminovos, em desenvolvimento. Atuação no frontend com catálogo, variações de produtos, carrinho e integração com APIs de pedidos e estoque. Pagamentos e consistência de estoque fazem parte do trabalho em evolução.",
+      tags: ["React", "APIs REST", "E-commerce", "Freelance"],
     },
     {
       title: "Sistema PDV",

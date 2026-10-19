@@ -7,9 +7,9 @@ export default function Experience() {
       description: 'Atuação direta e diária no desenvolvimento do sistema DMTT (Departamento Municipal de Transportes e Trânsito).',
       achievements: [
         'Desenvolvimento e sustentação de novas features focadas em otimizar a gestão de mobilidade e trânsito.',
-        'Resolução ativa de bugs complexos e refatoração de componentes para garantir melhor performance e manutenibilidade.',
+        'Correção de bugs e refatoração de componentes para facilitar a manutenção do sistema.',
         'Trabalho ágil e colaborativo lado a lado com engenheiros seniores, absorvendo boas práticas, design patterns e participando de code reviews.',
-        'Gestão de versionamento de código utilizando Git e GitHub Flow, com integração contínua e controle rigoroso de branches e merges.',
+        'Versionamento de código com Git e GitHub, utilizando branches e revisão de alterações.',
         'Construção e aprimoramento de interfaces de usuário (UI/UX), prezando por um design limpo, responsivo e centrado na experiência do usuário.'
       ]
     },

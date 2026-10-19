@@ -9,21 +9,21 @@ export default function Hero() {
       <div className='max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center'>
         <div className='space-y-6 md:space-y-8 animate-fade-in-up text-center md:text-left mt-12 md:mt-0'>
           <h1 className='text-4xl sm:text-5xl md:text-7xl font-bold leading-tight text-white px-2 md:px-0'>
-            Transformando <br />
+            Miguel Angelo <br />
             <span className='text-transparent bg-clip-text bg-gradient-to-r from-brand-primary via-brand-secondary to-brand-accent'>
-              Ideias em Código
+              Desenvolvedor Full Stack
             </span>
           </h1>
           <p className='text-base md:text-lg text-gray-400 max-w-lg leading-relaxed mx-auto md:mx-0'>
-            Sou um Desenvolvedor Full Stack Júnior apaixonado por criar
-            interfaces limpas, modernas e sistemas eficientes. Pronto para
-            agregar valor à sua equipe.
+            Desenvolvedor Júnior com atuação na Tiger Tecnologia e em projetos web.
+            Trabalho com React, Node.js e APIs REST, conectando interfaces,
+            dados e regras de negócio para resolver problemas reais.
           </p>
           <div className='flex flex-wrap justify-center md:justify-start gap-4'>
             <a href='#projects' className='btn-primary'>
               Ver Projetos
             </a>
-            <a href='/curriculo_miguel_angelo.html' target='_blank' className='btn-outline flex items-center gap-2'>
+            <a href='/curriculo_miguel_angelo.pdf' download className='btn-outline flex items-center gap-2'>
               <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
               </svg>
