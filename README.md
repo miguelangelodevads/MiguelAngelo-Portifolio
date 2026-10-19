@@ -1,28 +1,76 @@
 # Miguel Angelo | Portfólio profissional
 
-Portfólio de Miguel Angelo Russo Neto, Desenvolvedor Full Stack Júnior, com experiência na Tiger Tecnologia e como freelancer na BG Tec.
+### Desenvolvimento de Software + IA
+
+Projetos, trajetória e currículo de um desenvolvedor Full Stack
+Júnior que utiliza IA generativa como apoio ao desenvolvimento.
+
+[🌐 Acessar portfólio](https://miguel-angelo-portifolio.vercel.app/)
+·
+[💼 LinkedIn](https://www.linkedin.com/in/miguel-angelo-russo-neto-bbaa48280/)
+
+## Sobre mim
+
+Sou formado em Análise e Desenvolvimento de Sistemas, com
+formação em IA Generativa e estudos em desenvolvimento Full Stack.
+
+Tenho experiência na Tiger Tecnologia e como freelancer na
+BG Tec, conforme detalhado no currículo.
+
+Utilizo ChatGPT e Codex para apoiar o planejamento, a implementação,
+a documentação e a revisão de funcionalidades.
+
+Minha trajetória como músico também contribui para entender
+necessidades reais e desenvolver aplicações para esse segmento.
 
 ## Projetos apresentados
 
-DMTT, Compra Certa, JB Produção, Casa do Batera, Sistema PDV e aplicações musicais. Cada descrição identifica o contexto e o estágio de desenvolvimento.
+| Área | Projetos |
+| --- | --- |
+| Gestão e operações | DMTT, JB Produção e Sistema PDV |
+| Comércio e comparação de preços | Casa do Batera e Compra Certa |
+| Música e produtividade | Aplicações relacionadas à minha experiência como músico |
 
-## Stack do portfólio
+Cada projeto possui seu contexto e estágio de desenvolvimento
+descritos no portfólio. Nem todos estão concluídos ou possuem
+código público neste repositório.
 
-React 19, Vite e Tailwind CSS.
+## Tecnologias deste site
 
-## Executar e validar
+**React 19 · JavaScript · Vite · Tailwind CSS**
+
+Este repositório contém o site do portfólio.
+Os projetos apresentados possuem suas próprias tecnologias.
+
+## Executar localmente
+
+Com Node.js e npm instalados:
 
 ```sh
+git clone https://github.com/miguelangelodevads/MiguelAngelo-Portifolio.git
+cd MiguelAngelo-Portifolio
 npm ci
 npm run dev
-npm run lint
-npm run build
 ```
+
+## Comandos
+
+| Comando | Finalidade |
+| --- | --- |
+| `npm run dev` | Iniciar o ambiente de desenvolvimento |
+| `npm run lint` | Executar análise estática |
+| `npm run build` | Gerar a versão de produção |
+| `npm run preview` | Visualizar o build localmente |
 
 ## Currículo
 
-- `curriculo.md`: versão textual.
-- `public/curriculo_miguel_angelo.html`: versão acessível para leitura e impressão.
-- `public/curriculo_miguel_angelo.pdf`: arquivo para candidatura, disponível no botão do portfólio.
+- [Versão textual](curriculo.md)
+- [Versão HTML para leitura e impressão](public/curriculo_miguel_angelo.html)
+- [PDF para candidatura](public/curriculo_miguel_angelo.pdf)
 
-As versões apresentam as mesmas experiências. Tecnologias não confirmadas, como C# e .NET, não são declaradas como competências.
+## Oportunidades
+
+Busco oportunidades júnior em desenvolvimento web e
+implementação de soluções com IA aplicada.
+
+[Conheça meu trabalho →](https://miguel-angelo-portifolio.vercel.app/)
