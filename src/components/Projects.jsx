@@ -17,15 +17,20 @@ export default function Projects() {
     },
     {
       title: "JB Produção",
-      image: "/projects/jb-producao.jpg",
-      imageAlt: "Interface do projeto JB Produção, versão em desenvolvimento",
+      images: [
+        { src: "/projects/jb-login.jpg", alt: "Tela de login do JB Produção", label: "Login · PDF de demonstração" },
+        { src: "/projects/jb-programacao.jpg", alt: "Tela interna de programação musical do JB Produção", label: "Programação musical · PDF de demonstração" },
+      ],
       description: "Sistema em desenvolvimento para organizar apresentações, artistas e estabelecimentos. O projeto trabalha com agenda, permissões por artista e regras de comissões e fechamento por estabelecimento, usando Next.js, NestJS e PostgreSQL.",
       tags: ["TypeScript", "NestJS", "Next.js", "Regras de negócio"],
     },
     {
       title: "Casa do Batera",
-      image: "/projects/casa-do-batera.png",
-      imageAlt: "Interface do projeto Casa do Batera, versão em desenvolvimento",
+      link: "https://casa-do-batera-01.vercel.app/",
+      images: [
+        { src: "/projects/casa-do-batera-inicio.jpg", alt: "Página inicial atual da Casa do Batera", label: "Página inicial · Site publicado" },
+        { src: "/projects/casa-do-batera-catalogo.jpg", alt: "Catálogo atual da Casa do Batera", label: "Catálogo · Site publicado" },
+      ],
       description: "E-commerce de instrumentos musicais novos e seminovos, em desenvolvimento. Atuação no frontend com catálogo, variações de produtos, carrinho e integração com APIs de pedidos e estoque. Pagamentos e consistência de estoque fazem parte do trabalho em evolução.",
       tags: ["React", "APIs REST", "E-commerce", "Freelance"],
     },
@@ -65,14 +70,14 @@ export default function Projects() {
               key={index}
               className={`glass-panel p-6 rounded-2xl flex flex-col h-full hover:-translate-y-2 transition-transform duration-300 ${project.featured ? "ring-2 ring-brand-primary border-transparent" : ""}`}
             >
-              {project.image && (
-                <figure className="mb-5">
-                  <a href={project.image} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-primary" aria-label={`Ampliar imagem de ${project.title}`}>
-                    <img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" className="w-full aspect-[16/10] object-cover object-top bg-white" />
+              {(project.images || (project.image ? [{ src: project.image, alt: project.imageAlt, label: 'Captura real · Versão em desenvolvimento' }] : [])).map((image) => (
+                <figure key={image.src} className="mb-5">
+                  <a href={image.src} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-primary" aria-label={`Ampliar: ${image.alt}`}>
+                    <img src={image.src} alt={image.alt} loading="lazy" decoding="async" className="w-full aspect-[16/10] object-contain bg-black/20" />
                   </a>
-                  <figcaption className="text-xs text-gray-500 mt-2">Captura real · Versão em desenvolvimento</figcaption>
+                  <figcaption className="text-xs text-gray-400 mt-2">{image.label}</figcaption>
                 </figure>
-              )}
+              ))}
               {project.featured && (
                 <span className='self-start text-xs font-bold uppercase tracking-wider text-brand-primary bg-brand-primary/10 px-3 py-1 rounded-full mb-4'>
                   Destaque Profissional
