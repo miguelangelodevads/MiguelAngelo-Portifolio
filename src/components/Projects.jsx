@@ -28,8 +28,8 @@ export default function Projects() {
       title: "Casa do Batera",
       link: "https://casa-do-batera-01.vercel.app/",
       images: [
-        { src: "/projects/casa-do-batera-inicio.jpg", alt: "Página inicial atual da Casa do Batera", label: "Página inicial · Site publicado" },
-        { src: "/projects/casa-do-batera-catalogo.jpg", alt: "Catálogo atual da Casa do Batera", label: "Catálogo · Site publicado" },
+        { src: "/projects/casa-do-batera-inicio-completa.jpg", alt: "Página inicial atual da Casa do Batera", fullPage: true, label: "Página inicial completa · Clique para ampliar" },
+        { src: "/projects/casa-do-batera-catalogo-completa.jpg", alt: "Catálogo atual da Casa do Batera", fullPage: true, label: "Catálogo completo · Clique para ampliar" },
       ],
       description: "E-commerce de instrumentos musicais novos e seminovos, em desenvolvimento. Atuação no frontend com catálogo, variações de produtos, carrinho e integração com APIs de pedidos e estoque. Pagamentos e consistência de estoque fazem parte do trabalho em evolução.",
       tags: ["React", "APIs REST", "E-commerce", "Freelance"],
@@ -73,7 +73,7 @@ export default function Projects() {
               {(project.images || (project.image ? [{ src: project.image, alt: project.imageAlt, label: 'Captura real · Versão em desenvolvimento' }] : [])).map((image) => (
                 <figure key={image.src} className="mb-5">
                   <a href={image.src} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-primary" aria-label={`Ampliar: ${image.alt}`}>
-                    <img src={image.src} alt={image.alt} loading="lazy" decoding="async" className="w-full aspect-[16/10] object-contain bg-black/20" />
+                    <img src={image.src} alt={image.alt} loading="lazy" decoding="async" className={image.fullPage ? "w-full h-auto bg-black/20" : "w-full aspect-[16/10] object-contain bg-black/20"} />
                   </a>
                   <figcaption className="text-xs text-gray-400 mt-2">{image.label}</figcaption>
                 </figure>
