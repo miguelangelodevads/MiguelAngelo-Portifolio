@@ -70,14 +70,16 @@ export default function Projects() {
               key={index}
               className={`glass-panel p-6 rounded-2xl flex flex-col h-full hover:-translate-y-2 transition-transform duration-300 ${project.featured ? "ring-2 ring-brand-primary border-transparent" : ""}`}
             >
+              <div className={project.images ? "grid grid-cols-2 gap-3 mb-5" : "mb-5"}>
               {(project.images || (project.image ? [{ src: project.image, alt: project.imageAlt, label: 'Captura real · Versão em desenvolvimento' }] : [])).map((image) => (
-                <figure key={image.src} className="mb-5">
+                <figure key={image.src} className="min-w-0">
                   <a href={image.src} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-primary" aria-label={`Ampliar: ${image.alt}`}>
-                    <img src={image.src} alt={image.alt} loading="lazy" decoding="async" className={image.fullPage ? "w-full h-auto bg-black/20" : "w-full aspect-[16/10] object-contain bg-black/20"} />
+                    <img src={image.src} alt={image.alt} loading="lazy" decoding="async" className={`${project.images ? "h-32" : "h-48"} w-full bg-black/20 ${image.fullPage ? "object-cover object-top" : "object-contain"}`} />
                   </a>
                   <figcaption className="text-xs text-gray-400 mt-2">{image.label}</figcaption>
                 </figure>
               ))}
+              </div>
               {project.featured && (
                 <span className='self-start text-xs font-bold uppercase tracking-wider text-brand-primary bg-brand-primary/10 px-3 py-1 rounded-full mb-4'>
                   Destaque Profissional
