@@ -14,7 +14,7 @@ export default function About() {
           <div className="glass-panel p-8 rounded-2xl">
             <h3 className="text-2xl font-bold text-white mb-4">Código conectado ao negócio</h3>
             <p className="text-gray-400 leading-relaxed mb-6">Sou formado em Análise e Desenvolvimento de Sistemas pela Universidade de Fortaleza (UNIFOR) e curso Desenvolvimento Full Stack na Digital College.</p>
-            <p className="text-gray-400 leading-relaxed mb-6">Atuo como Aprendiz Júnior Voluntário na Tiger Tecnologia, contribuindo para o sistema DMTT. Também desenvolvo interfaces de e-commerce como freelancer na BG Tec.</p>
+            <p className="text-gray-400 leading-relaxed mb-6">Atuo como Desenvolvedor Full Stack Júnior, em atuação voluntária, na Tiger Tecnologia, contribuindo para o sistema DMTT. Também desenvolvo interfaces de e-commerce como freelancer na BG Tec.</p>
             <p className="text-gray-400 leading-relaxed">Meus projetos exploram integração de APIs, persistência de dados, controle de acesso e regras de negócio. Busco uma oportunidade júnior para contribuir com a equipe e aprofundar minha atuação em desenvolvimento backend.</p>
           </div>
           <div className="grid sm:grid-cols-2 gap-6">

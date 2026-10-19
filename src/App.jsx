@@ -4,6 +4,7 @@ import About from './components/About';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import AIWorkflow from './components/AIWorkflow';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <AIWorkflow />
         <About />
         <Experience />
         <Projects />

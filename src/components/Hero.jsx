@@ -16,8 +16,8 @@ export default function Hero() {
           </h1>
           <p className='text-base md:text-lg text-gray-400 max-w-lg leading-relaxed mx-auto md:mx-0'>
             Desenvolvedor Júnior com atuação na Tiger Tecnologia e em projetos web.
-            Trabalho com React, Node.js e APIs REST, conectando interfaces,
-            dados e regras de negócio para resolver problemas reais.
+            Desenvolvo com React, Node.js e APIs REST, usando ChatGPT Work e Codex
+            no planejamento, na implementação e na revisão dos projetos.
           </p>
           <div className='flex flex-wrap justify-center md:justify-start gap-4'>
             <a href='#projects' className='btn-primary'>

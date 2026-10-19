@@ -17,7 +17,7 @@ Desenvolvedor Full Stack Júnior, formado em Análise e Desenvolvimento de Siste
 
 ## Desenvolvimento assistido por IA
 
-Uso de OpenAI Codex e outras ferramentas de IA como apoio à análise de código, diagnóstico de erros, implementação, testes, refatoração e documentação em projetos web. Atenção à revisão das alterações e à validação do comportamento antes de integrar o código.
+Uso de ChatGPT Work para planejar funcionalidades, organizar requisitos e discutir regras de negócio em Compra Certa, Casa do Batera e JB Produção. Uso de OpenAI Codex para análise de código, diagnóstico de erros, implementação, testes, refatoração e documentação. Revisão das alterações e validação do comportamento antes de integrar e publicar as entregas.
 
 
 ## Competências técnicas
@@ -27,7 +27,7 @@ Backend: Node.js, NestJS, TypeScript e APIs REST. Dados: PostgreSQL e Prisma. Fr
 
 ## Experiência profissional
 
-### Tiger Tecnologia | Desenvolvedor Full Stack - Aprendiz Júnior Voluntário | Atualmente
+### Tiger Tecnologia | Desenvolvedor Full Stack Júnior (Voluntário) | Atualmente
 
 - Contribuição no desenvolvimento e manutenção do sistema DMTT, voltado à gestão de mobilidade e trânsito.
 

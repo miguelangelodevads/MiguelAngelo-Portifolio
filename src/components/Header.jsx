@@ -14,7 +14,8 @@ export default function Header() {
         </a>
         
         {/* Navegação Desktop */}
-        <nav className="hidden md:flex gap-8 items-center">
+        <nav className="hidden md:flex gap-6 items-center">
+          <a href="#ai" className="nav-link">IA no trabalho</a>
           <a href="#about" className="nav-link">Sobre</a>
           <a href="#experience" className="nav-link">Experiência</a>
           <a href="#projects" className="nav-link">Projetos</a>
@@ -42,6 +43,7 @@ export default function Header() {
 
       {/* Menu Mobile Overlay */}
       <div className={`fixed inset-0 bg-black/60 backdrop-blur-xl flex flex-col items-center justify-center gap-8 transition-all duration-300 md:hidden z-40 ${isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}>
+        <a href="#ai" onClick={() => setIsMenuOpen(false)} className="text-3xl font-bold text-gray-300 hover:text-brand-primary transition-colors">IA no trabalho</a>
         <a href="#about" onClick={() => setIsMenuOpen(false)} className="text-3xl font-bold text-gray-300 hover:text-brand-primary transition-colors">Sobre</a>
         <a href="#experience" onClick={() => setIsMenuOpen(false)} className="text-3xl font-bold text-gray-300 hover:text-brand-primary transition-colors">Experiência</a>
         <a href="#projects" onClick={() => setIsMenuOpen(false)} className="text-3xl font-bold text-gray-300 hover:text-brand-primary transition-colors">Projetos</a>

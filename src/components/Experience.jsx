@@ -1,7 +1,7 @@
 export default function Experience() {
   const experiences = [
     {
-      title: 'Desenvolvedor Full Stack (Aprendiz Júnior Voluntário)',
+      title: 'Desenvolvedor Full Stack Júnior (Voluntário)',
       company: 'Tiger Tecnologia',
       period: 'Atualmente',
       description: 'Atuação direta e diária no desenvolvimento do sistema DMTT (Departamento Municipal de Transportes e Trânsito).',

@@ -10,16 +10,22 @@ export default function Projects() {
     },
     {
       title: "Compra Certa",
+      image: "/projects/compra-certa.png",
+      imageAlt: "Interface do projeto Compra Certa, versão em desenvolvimento",
       description: "Projeto de comparação de preços com frontend Next.js e API NestJS. Inclui coleta de observações, entrada manual, validação de elegibilidade, deduplicação e recomendação considerando a recência dos dados. Persistência com Prisma e PostgreSQL.",
       tags: ["NestJS", "APIs REST", "PostgreSQL", "Prisma", "Em desenvolvimento"],
     },
     {
       title: "JB Produção",
+      image: "/projects/jb-producao.jpg",
+      imageAlt: "Interface do projeto JB Produção, versão em desenvolvimento",
       description: "Sistema em desenvolvimento para organizar apresentações, artistas e estabelecimentos. O projeto trabalha com agenda, permissões por artista e regras de comissões e fechamento por estabelecimento, usando Next.js, NestJS e PostgreSQL.",
       tags: ["TypeScript", "NestJS", "Next.js", "Regras de negócio"],
     },
     {
       title: "Casa do Batera",
+      image: "/projects/casa-do-batera.png",
+      imageAlt: "Interface do projeto Casa do Batera, versão em desenvolvimento",
       description: "E-commerce de instrumentos musicais novos e seminovos, em desenvolvimento. Atuação no frontend com catálogo, variações de produtos, carrinho e integração com APIs de pedidos e estoque. Pagamentos e consistência de estoque fazem parte do trabalho em evolução.",
       tags: ["React", "APIs REST", "E-commerce", "Freelance"],
     },
@@ -59,6 +65,14 @@ export default function Projects() {
               key={index}
               className={`glass-panel p-6 rounded-2xl flex flex-col h-full hover:-translate-y-2 transition-transform duration-300 ${project.featured ? "ring-2 ring-brand-primary border-transparent" : ""}`}
             >
+              {project.image && (
+                <figure className="mb-5">
+                  <a href={project.image} target="_blank" rel="noreferrer" className="block rounded-xl overflow-hidden border border-white/10 focus-visible:outline focus-visible:outline-2 focus-visible:outline-brand-primary" aria-label={`Ampliar imagem de ${project.title}`}>
+                    <img src={project.image} alt={project.imageAlt} loading="lazy" decoding="async" className="w-full aspect-[16/10] object-cover object-top bg-white" />
+                  </a>
+                  <figcaption className="text-xs text-gray-500 mt-2">Captura real · Versão em desenvolvimento</figcaption>
+                </figure>
+              )}
               {project.featured && (
                 <span className='self-start text-xs font-bold uppercase tracking-wider text-brand-primary bg-brand-primary/10 px-3 py-1 rounded-full mb-4'>
                   Destaque Profissional
